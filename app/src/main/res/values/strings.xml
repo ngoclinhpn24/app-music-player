@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mainScreen2</string>
+    <string name="action_home">Khám phá</string>
+    <string name="action_user">Cá nhân</string>
+    <string name="action_setting">Cài đặt</string>
+
+    <string name="create_account"><u>Create</u></string>
+    <string name="login_account"><u>Login</u></string>
+</resources>

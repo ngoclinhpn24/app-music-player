@@ -1,0 +1,33 @@
+category/CategoryAdapter.java
+ category.CategoryAdapter
+ category.CategoryAdapter$CategoryViewHolder
+album/AlbumAdapter.java
+ album.AlbumAdapter
+ album.AlbumAdapter$AlbumViewHolder
+com/example/mainscreen2/Fragment/UserFragment.java
+ com.example.mainscreen2.Fragment.UserFragment
+com/example/mainscreen2/Signup_Form.java
+ com.example.mainscreen2.Signup_Form
+com/example/mainscreen2/Fragment/HomeFragment.java
+ com.example.mainscreen2.Fragment.HomeFragment
+ com.example.mainscreen2.Fragment.HomeFragment$1
+album/Album.java
+ album.Album
+com/example/mainscreen2/Fragment/SettingFragment.java
+ com.example.mainscreen2.Fragment.SettingFragment
+com/example/mainscreen2/ViewPagerAdapter.java
+ com.example.mainscreen2.ViewPagerAdapter
+category/Category.java
+ category.Category
+com/example/mainscreen2/BuildConfig.java
+ com.example.mainscreen2.BuildConfig
+com/example/mainscreen2/Login_Form.java
+ com.example.mainscreen2.Login_Form
+com/example/mainscreen2/API/ApiService.java
+ com.example.mainscreen2.API.ApiService
+com/example/mainscreen2/Model/Banner.java
+ com.example.mainscreen2.Model.Banner
+com/example/mainscreen2/MainActivity.java
+ com.example.mainscreen2.MainActivity
+ com.example.mainscreen2.MainActivity$1
+ com.example.mainscreen2.MainActivity$2
