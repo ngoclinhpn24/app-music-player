@@ -6,9 +6,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#E4E2E2</color>
+
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+    <color name="card5">#e27c6f</color>
+    <color name="card6">#c9e3db</color>
+    <color name="card7">#86d098</color>
 
     <color name="background">#EEEDEF</color>
     <color name="colorPrimary">#2D383F</color>
     <color name="colorPrimaryDark">#2D383F</color>
     <color name="colorAccent">#a7c5eb</color>
+
 </resources>

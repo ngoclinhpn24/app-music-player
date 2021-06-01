@@ -1,3 +1,5 @@
+//-----------------------------------com.example.mainscreen2.Model.Banner.java-----------------------------------
+
 package com.example.mainscreen2.Model;
 
 import javax.annotation.Generated;
@@ -7,38 +9,38 @@ import com.google.gson.annotations.SerializedName;
 @Generated("jsonschema2pojo")
 public class Banner {
 
-    @SerializedName("Suggest_id")
+    @SerializedName("banner_id")
     @Expose
-    private String suggestId;
-    @SerializedName("Name")
+    private String bannerId;
+    @SerializedName("banner_name")
     @Expose
-    private String name;
-    @SerializedName("Image_url")
+    private String bannerName;
+    @SerializedName("banner_image_url")
     @Expose
-    private String imageUrl;
+    private String bannerImageUrl;
 
-    public String getSuggestId() {
-        return suggestId;
+    public String getBannerId() {
+        return bannerId;
     }
 
-    public void setSuggestId(String suggestId) {
-        this.suggestId = suggestId;
+    public void setBannerId(String bannerId) {
+        this.bannerId = bannerId;
     }
 
-    public String getName() {
-        return name;
+    public String getBannerName() {
+        return bannerName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setBannerName(String bannerName) {
+        this.bannerName = bannerName;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public String getBannerImageUrl() {
+        return bannerImageUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+    public void setBannerImageUrl(String bannerImageUrl) {
+        this.bannerImageUrl = bannerImageUrl;
     }
 
 }

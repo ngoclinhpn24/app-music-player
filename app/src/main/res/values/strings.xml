@@ -4,6 +4,36 @@
     <string name="action_user">Cá nhân</string>
     <string name="action_setting">Cài đặt</string>
 
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+
     <string name="create_account"><u>Create</u></string>
     <string name="login_account"><u>Login</u></string>
+    <!--    <string name="login_account"><u>Login</u></string>-->
+
+
+    <!--    Phần bổ sung từ code gốc -->
+    <!--    <string name="app_name">TextInputLayout</string>-->
+    <string name="prompt_name">User name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="register">Register</string>
+    <!--    <string name="create_new">Click here for register</string>-->
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="not_register">Not Register?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
 </resources>

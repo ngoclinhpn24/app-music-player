@@ -5,20 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F7F7F7"
-    tools:context=".Signup_Form">
+    tools:context=".SignupActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_avt"
         android:layout_width= "325dp"
         android:layout_height="325dp"
         android:layout_marginBottom="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/edt_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/anh1"></ImageView>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edt_name"
         android:layout_width="325dp"
         android:layout_height="50dp"
         android:layout_marginBottom="16dp"
@@ -28,17 +29,17 @@
         android:drawablePadding="8dp"
         android:ems="10"
         android:foregroundTint="#fff"
-        android:hint="User name"
+        android:hint="@string/prompt_name"
         android:inputType="textPersonName"
         android:padding="8dp"
         android:textColorHint="#0E0E0E"
         android:textSize="17sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/edt_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"></EditText>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edt_email"
         android:layout_width="325dp"
         android:layout_height="50dp"
         android:layout_marginBottom="16dp"
@@ -48,18 +49,18 @@
         android:drawablePadding="8dp"
         android:ems="10"
         android:foregroundTint="#fff"
-        android:hint="Email"
+        android:hint="@string/prompt_email"
         android:inputType="textPersonName"
         android:padding="8dp"
         android:textColorHint="#0E0E0E"
         android:textSize="17sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText3"
+        app:layout_constraintBottom_toTopOf="@+id/edt_pass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"></EditText>
 
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/edt_pass"
         android:layout_width="325dp"
         android:layout_height="50dp"
         android:layout_marginBottom="32dp"
@@ -69,32 +70,32 @@
         android:drawablePadding="8dp"
         android:ems="10"
         android:foregroundTint="#fff"
-        android:hint="Password"
-        android:inputType="textPersonName"
+        android:hint="@string/prompt_password"
+        android:inputType="textPassword"
         android:padding="8dp"
         android:textColorHint="#0E0E0E"
         android:textSize="17sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"></EditText>
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_register"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:text="Register"
+        android:layout_marginBottom="30dp"
+        android:text="@string/register"
         android:background="@drawable/button_rounded"
         android:textAllCaps="false"
         android:textColor="#0E0E0E"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_acc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"></Button>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_acc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
@@ -106,14 +107,23 @@
         app:layout_constraintStart_toStartOf="parent"></TextView>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tv_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_marginLeft="5dp"
-        android:textSize="17sp"
+        android:textSize="16sp"
         android:text="@string/login_account"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView"></TextView>
+        app:layout_constraintStart_toEndOf="@+id/tv_acc"></TextView>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/img_avt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ProgressBar>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
