@@ -2,6 +2,7 @@
 1. Giới thiệu chung
 - Đây là app nghe nhạc đơn giản
 - Được viết bằng Java
+- Link API: https://musicplay0123456789.000webhostapp.com/Server/ 
 2. Giao diện 
 - Giao diện đăng ký
 
